@@ -13,6 +13,9 @@ public class Bihin {
         this.price = price;
         this.quantity = quantity;
     }
+    public boolean isAfterBihin(LocalDate dateX) {
+        return this.date.isAfter(dateX);
+    }
     public String getName() {
         return name;
     }
