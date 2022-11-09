@@ -1,4 +1,4 @@
-package chapter03;
+package chapter04;
 
 import java.io.BufferedReader;
 import java.io.IOException;
