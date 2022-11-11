@@ -8,7 +8,7 @@ public final class Author {
     public Author(String name, ArrayList<String> books) {
         this.name = name;
         this.books = new ArrayList<>();
-        for (Book book: books) {
+        for (String book: books) {
             this.books.add(book);
         }
     }
@@ -17,7 +17,7 @@ public final class Author {
     }
     public ArrayList<String> getBooks() {
         ArrayList<String> result = new ArrayList<>();
-        for (Book book: this.books) {
+        for (String book: this.books) {
             result.add(book);
         }
         return result;
