@@ -50,6 +50,7 @@ public class StdStat {
         return sqrSum / csv.size();
     }
     public double getStdDev() {
+        if (calculated) return Math.sqrt(variant);
         double result = Math.sqrt(getVariant());
         return result;
     }
