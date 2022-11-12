@@ -38,7 +38,7 @@ public class StdStat {
     public int getSize() {
         return this.size;
     }
-    public double variant() {
+    public double getVariant() {
         if (calculated) return variant;
         double sqrSum = 0;
         for (int i = 0; i < this.size; i++) {
@@ -50,9 +50,7 @@ public class StdStat {
         return sqrSum / csv.size();
     }
     public double getStdDev() {
-        if (calculated) return stdDev;
-        double result = Math.sqrt(variant);
-        this.stdDev = result;
+        double result = Math.sqrt(getVariant());
         return result;
     }
     @Override
