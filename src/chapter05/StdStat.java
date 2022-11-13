@@ -12,31 +12,30 @@ public class StdStat {
     private int size;
     private boolean calculated;
     private double variant;
-    private double stdDev;
     public StdStat(String str) throws IllegalArgumentException {
         csv = new Csv(str);
         if (csv.size() <= 0) throw new IllegalArgumentException("データが空です。");
         for (int i = 0; i < csv.size(); i++) {
             double val = csv.getDouble(i);
-            this.total += val;
+            total += val;
             if (val > max) max = val;
             size++;
         }
-        this.average = this.total / this.size;
+        average = total / size;
         if (this.max == Double.NEGATIVE_INFINITY)
             throw new IllegalArgumentException();
     }
     public double getTotal() {
-        return this.total;
+        return total;
     }
     public double getAverage() {
-        return this.average;
+        return average;
     }
     public double getMax() {
-        return this.max;
+        return max;
     }
     public int getSize() {
-        return this.size;
+        return size;
     }
     public double getVariant() {
         if (calculated) return variant;
@@ -44,15 +43,13 @@ public class StdStat {
         for (int i = 0; i < this.size; i++) {
             sqrSum += Math.pow(csv.getDouble(i) - average, 2);
         }
-        double var = sqrSum / csv.size();
-        this.variant = var;
+        variant = sqrSum / csv.size();
         calculated = true;
-        return sqrSum / csv.size();
+        return variant;
     }
     public double getStdDev() {
         if (calculated) return Math.sqrt(variant);
-        double result = Math.sqrt(getVariant());
-        return result;
+        return Math.sqrt(getVariant());
     }
     @Override
     public String toString() {
