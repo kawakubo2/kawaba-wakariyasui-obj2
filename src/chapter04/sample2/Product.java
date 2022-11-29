@@ -2,8 +2,9 @@ package chapter04.sample2;
 
 import java.time.LocalDate;
 
+// classにfinal修飾すると継承させないという意味になる
 public final class Product {
-    private final String number;
+    private final String number; // 2度目以降の代入はできない
     private final String name;
     private final int price;
     private final LocalDate date;
