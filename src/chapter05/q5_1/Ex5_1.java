@@ -1,7 +1,5 @@
 package chapter05.q5_1;
 
-import javax.naming.ldap.ManageReferralControl;
-
 import lib.Input;
 
 public class Ex5_1 {
