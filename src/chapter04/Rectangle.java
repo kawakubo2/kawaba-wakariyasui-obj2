@@ -1,11 +1,11 @@
 package chapter04;
 
 public class Rectangle {
-    private double x;
-    private double y;
-    private double width;
-    private double height;
-    private String color;
+    protected double x;
+    protected double y;
+    protected double width;
+    protected double height;
+    protected String color;
     public Rectangle(double x, double y, double width, double height, String color) {
         this.x = x;
         this.y = y;
