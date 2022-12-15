@@ -4,7 +4,7 @@ import static java.util.stream.Collectors.*;
 
 import java.util.List;
 
-import chapter20.PC;
+import chapter20.first.PC;
 
 public class ToListExample {
     public static void main(String[] args) {

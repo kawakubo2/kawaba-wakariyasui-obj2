@@ -1,4 +1,4 @@
-package bohyoh.nyumon_tashiro.chapter11;
+package chapter11;
 
 public class A {
     private IB b;

@@ -1,4 +1,4 @@
-package bohyoh.nyumon_tashiro.chapter11.filter;
+package chapter11.filter;
 
 public class Total1 {
     public static void main(String[] args) {

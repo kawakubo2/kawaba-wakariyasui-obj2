@@ -1,4 +1,4 @@
-package bohyoh.nyumon_tashiro.chapter11;
+package chapter11;
 
 import java.util.Random;
 

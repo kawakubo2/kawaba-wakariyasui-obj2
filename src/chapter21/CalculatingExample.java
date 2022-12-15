@@ -3,11 +3,11 @@ package chapter21;
 import java.util.List;
 import java.util.Optional;
 
+import chapter20.first.Book;
+
 import static java.util.stream.Collectors.*;
 
 import java.util.Comparator;
-
-import chapter20.Book;
 
 public class CalculatingExample {
     public static void main(String[] args) {

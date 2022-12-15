@@ -1,4 +1,4 @@
-package bohyoh.nyumon_tashiro.chapter11.filter;
+package chapter11.filter;
 
 public class PositiveOdd implements Filter {
     public boolean test(int n) {

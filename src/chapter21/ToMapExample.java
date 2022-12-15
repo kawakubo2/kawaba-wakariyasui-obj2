@@ -1,8 +1,10 @@
 package chapter21;
 
 import java.util.Map;
+
+import chapter20.first.PC;
+
 import static java.util.stream.Collectors.*;
-import chapter20.PC;
 
 public class ToMapExample {
     public static void main(String[] args) {

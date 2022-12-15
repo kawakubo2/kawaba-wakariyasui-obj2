@@ -2,10 +2,11 @@ package chapter21;
 
 import java.util.List;
 import java.util.Map;
+
+import chapter20.first.PC;
+
 // import java.util.stream.Collectors;
 import static java.util.stream.Collectors.*;
-
-import chapter20.PC;
 
 public class GroupingExample2 {
     public static void main(String[] args) {

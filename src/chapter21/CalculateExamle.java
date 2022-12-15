@@ -3,7 +3,7 @@ package chapter21;
 import java.util.OptionalDouble;
 import java.util.OptionalInt;
 
-import chapter20.PC;
+import chapter20.first.PC;
 
 public class CalculateExamle {
     public static void main(String[] args) {

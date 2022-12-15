@@ -2,9 +2,10 @@ package chapter21;
 
 import java.util.List;
 import java.util.Map;
-import static java.util.stream.Collectors.*;
 
-import chapter20.PC;
+import chapter20.first.PC;
+
+import static java.util.stream.Collectors.*;
 
 public class PartioningExample {
     public static void main(String[] args) {

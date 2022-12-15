@@ -3,7 +3,7 @@ package chapter21;
 import java.util.Comparator;
 import java.util.Optional;
 
-import chapter20.PC;
+import chapter20.first.PC;
 
 public class MaxMinExample {
     public static void main(String[] args) {

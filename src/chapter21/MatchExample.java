@@ -2,7 +2,7 @@ package chapter21;
 
 import java.util.List;
 
-import chapter20.PC;
+import chapter20.first.PC;
 
 public class MatchExample {
     public static void main(String[] args) {

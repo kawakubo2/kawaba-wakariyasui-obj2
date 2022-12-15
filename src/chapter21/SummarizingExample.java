@@ -4,7 +4,7 @@ import static java.util.stream.Collectors.*;
 
 import java.util.IntSummaryStatistics;
 
-import chapter20.Book;
+import chapter20.first.Book;
 
 public class SummarizingExample {
     public static void main(String[] args) {
