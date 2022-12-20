@@ -1,4 +1,4 @@
-package chapter11;
+package chapter11.loose_coupling;
 
 import java.util.Random;
 
