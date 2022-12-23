@@ -1,19 +1,18 @@
-package chapter14;
+package chapter14.first;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-public class DeleteExample {
+public class CreateExample3 {
     public static void main(String[] args) {
         try {
-            Path target = Path.of("foo/bar/memo.txt");
-            if (Files.exists(target)) {
-                Files.delete(target);
+            Path path = Path.of("foo/bar/note.txt");
+            if (!(Files.exists(path))) {
+                Files.createFile(path);
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
-    
 }

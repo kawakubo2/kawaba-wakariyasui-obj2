@@ -1,16 +1,14 @@
-package chapter14;
+package chapter14.first;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-public class CreateExample3 {
+public class CreateExample2 {
     public static void main(String[] args) {
         try {
-            Path path = Path.of("foo/bar/note.txt");
-            if (!(Files.exists(path))) {
-                Files.createFile(path);
-            }
+            Path path = Path.of("foo/bar");
+            Files.createDirectories(path);        
         } catch (IOException e) {
             e.printStackTrace();
         }
