@@ -2,7 +2,6 @@ package chapter16.second;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Vector;
 
 public class List1 {
     public static void main(String[] args) {

@@ -7,7 +7,6 @@ import java.time.temporal.ChronoUnit;
 public class PeriodExample {
     public static void main(String[] args) {
         LocalDate birthdate = LocalDate.of(1962, 8, 5);
-        LocalDate date = LocalDate.of(2022, 8, 5); 
         LocalDate today = LocalDate.now();
 
         long days = ChronoUnit.DAYS.between(birthdate, today);
