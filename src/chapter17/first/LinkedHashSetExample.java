@@ -1,10 +1,10 @@
-package chapter17;
+package chapter17.first;
 
-import java.util.HashSet;
+import java.util.LinkedHashSet;
 
-public class HashSetExample {
+public class LinkedHashSetExample {
     public static void main(String[] args) {
-        var ids = new HashSet<String>();
+        var ids = new LinkedHashSet<String>();
         ids.add("アンパンマン");
         ids.add("スーパーマン");
         ids.add("バットマン");

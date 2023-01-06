@@ -1,10 +1,10 @@
-package chapter17;
+package chapter17.first;
 
-import java.util.LinkedHashSet;
+import java.util.TreeSet;
 
-public class LinkedHashSetExample {
+public class TreeSetExample {
     public static void main(String[] args) {
-        var ids = new LinkedHashSet<String>();
+        var ids = new TreeSet<String>();
         ids.add("アンパンマン");
         ids.add("スーパーマン");
         ids.add("バットマン");

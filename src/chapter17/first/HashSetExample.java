@@ -1,10 +1,10 @@
-package chapter17;
+package chapter17.first;
 
-import java.util.TreeSet;
+import java.util.HashSet;
 
-public class TreeSetExample {
+public class HashSetExample {
     public static void main(String[] args) {
-        var ids = new TreeSet<String>();
+        var ids = new HashSet<String>();
         ids.add("アンパンマン");
         ids.add("スーパーマン");
         ids.add("バットマン");
