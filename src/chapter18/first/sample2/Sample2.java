@@ -1,4 +1,4 @@
-package chapter18.sample2;
+package chapter18.first.sample2;
 
 import java.util.ArrayList;
 import java.util.Comparator;

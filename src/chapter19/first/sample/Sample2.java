@@ -1,4 +1,4 @@
-package chapter19.sample;
+package chapter19.first.sample;
 
 import java.util.ArrayList;
 

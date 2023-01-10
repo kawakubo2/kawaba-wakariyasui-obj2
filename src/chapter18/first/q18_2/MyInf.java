@@ -1,4 +1,4 @@
-package chapter18.q18_2;
+package chapter18.first.q18_2;
 
 public interface MyInf {
     default void test() {

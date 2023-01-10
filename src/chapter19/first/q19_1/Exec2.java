@@ -1,4 +1,4 @@
-package chapter19.q19_1;
+package chapter19.first.q19_1;
 
 public class Exec2 {
     public static void main(String[] args) {

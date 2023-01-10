@@ -1,4 +1,4 @@
-package chapter18.sample;
+package chapter18.first.sample;
 
 public class AnonimousExample {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package chapter18.q18_1_b;
+package chapter18.first.q18_1_b;
 
 record Member(int id, String name) {}
 

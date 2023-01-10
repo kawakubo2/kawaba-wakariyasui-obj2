@@ -1,4 +1,4 @@
-package chapter18.q18_1_b;
+package chapter18.first.q18_1_b;
 
 public class MyBiFunctionTest {
     public static void main(String[] args) {

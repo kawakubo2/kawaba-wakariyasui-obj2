@@ -1,4 +1,4 @@
-package chapter18.review1;
+package chapter18.first.review1;
 
 public class Box<T> {
     T[] n;
