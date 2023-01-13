@@ -1,9 +1,10 @@
 package chapter21.second;
 
 import java.util.Set;
-import static java.util.stream.Collectors.*;
 
-import chapter20.first.Book;
+import chapter24.first.Book;
+
+import static java.util.stream.Collectors.*;
 
 record Info(Set<String> authors, Long books) {}
 

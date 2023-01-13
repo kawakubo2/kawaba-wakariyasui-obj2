@@ -4,7 +4,7 @@ import java.util.Comparator;
 import java.util.Optional;
 import java.util.OptionalDouble;
 
-import chapter20.first.Book;
+import chapter24.first.Book;
 
 public class Q21_1 {
     public static void main(String[] args) {

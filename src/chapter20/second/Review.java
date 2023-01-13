@@ -2,8 +2,6 @@ package chapter20.second;
 
 import java.util.Comparator;
 
-import chapter20.first.Book;
-
 public class Review {
     public static void main(String[] args) {
         var list = Book.getList();

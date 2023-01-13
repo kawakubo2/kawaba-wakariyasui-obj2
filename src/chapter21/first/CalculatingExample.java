@@ -3,7 +3,7 @@ package chapter21.first;
 import java.util.List;
 import java.util.Optional;
 
-import chapter20.first.Book;
+import chapter24.first.Book;
 
 import static java.util.stream.Collectors.*;
 

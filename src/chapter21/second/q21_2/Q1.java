@@ -3,8 +3,9 @@ package chapter21.second.q21_2;
 import java.util.List;
 import java.util.Map;
 
+import chapter21.second.Book;
+
 import static java.util.stream.Collectors.*;
-import chapter20.first.Book;
 
 public class Q1 {
     public static void main(String[] args) {

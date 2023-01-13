@@ -5,7 +5,7 @@ import static java.util.stream.Collectors.*;
 import java.util.Comparator;
 import java.util.Optional;
 
-import chapter20.first.Book;
+import chapter24.first.Book;
 
 public class CalculatingExample {
     public static void main(String[] args) {
