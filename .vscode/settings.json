@@ -5,4 +5,11 @@
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
     ],
+    "maptz.regionfolder.regions": [
+        {
+            "beginRegex": "System\\.out\\.println",
+            "endRegex": "$",
+            "name": "Debug Print"
+        }
+    ],
 }
